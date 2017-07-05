@@ -14,7 +14,7 @@ window.fbAsyncInit = function() {
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9&appId=148922782339638";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));;
+}(document, 'script', 'facebook-jssdk'));
 
   //3. Check Login Status
 FB.getLoginStatus(function(response) {
